@@ -157,6 +157,13 @@
   dependencies:
     "@fortawesome/fontawesome-common-types" "^0.2.18"
 
+"@fortawesome/free-regular-svg-icons@5.8.2":
+  version "5.8.2"
+  resolved "https://registry.yarnpkg.com/@fortawesome/free-regular-svg-icons/-/free-regular-svg-icons-5.8.2.tgz#f61c603c73695a41bcee9d6f9d44e2ca4829f151"
+  integrity sha512-499WODlsDcXA9hM+Y3ZqoWj1kKhVLCHS8PnJs3zEaoPr5W6yrE9Jnp3C9Hb9KpwnRMh3IRXZ3XqxyUaQFMMRFw==
+  dependencies:
+    "@fortawesome/fontawesome-common-types" "^0.2.18"
+
 "@fortawesome/free-solid-svg-icons@5.8.2":
   version "5.8.2"
   resolved "https://registry.yarnpkg.com/@fortawesome/free-solid-svg-icons/-/free-solid-svg-icons-5.8.2.tgz#aa2f042f73aca43eb4a26149907e63bf26d2e31c"
@@ -172,28 +179,41 @@
     humps "^2.0.1"
     prop-types "^15.5.10"
 
-"@stenajs-webui/core@0.0.43":
-  version "0.0.43"
-  resolved "https://registry.yarnpkg.com/@stenajs-webui/core/-/core-0.0.43.tgz#77c62d7732f53de4ba3ac793dcef0766541f2e72"
-  integrity sha512-0b4Pe3eVuQ2xZgi0q3jmuT5EV+CrqW+jZHlOfwxzfFrzkV6o1O1hfRk3ObXuSoDgpBfeCZCg3zlUYJyDiTWpcw==
+"@stenajs-webui/core@1.2.0":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@stenajs-webui/core/-/core-1.2.0.tgz#e25fabe623706c9f19ed3589e390169ee5ca5803"
+  integrity sha512-aznVr6t0kDiSjomKk9NG7xdRGwD0h3oJ0OGI7/Wt3f3BOYvnUjq+c7EZaSoowa6chiMrwRssVhEnetKvJy/zhA==
   dependencies:
     "@emotion/is-prop-valid" "^0.8.2"
 
-"@stenajs-webui/elements@0.0.43":
-  version "0.0.43"
-  resolved "https://registry.yarnpkg.com/@stenajs-webui/elements/-/elements-0.0.43.tgz#62908a3b0b055672f4d9eeaaae857736691461d4"
-  integrity sha512-bDnNiB+3uAQMUQdZpwF/eWujyB4Nw03CucyDTS7RugT3a0JDHigTGy81cd+GtSR37SNEVXpr5i1fZGS3U3akjw==
+"@stenajs-webui/elements@1.2.0":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@stenajs-webui/elements/-/elements-1.2.0.tgz#d2b6244f8f1438b46c99034778901dc5a6fbbe39"
+  integrity sha512-LDULlcWd3PzDGsjAe5fqPqHdm/RpEe1zPaHyF6Qb0agBE/2ifYFWEUqrdYRZbvyDBX+5Pnh7DOfB7rPJqrVobg==
   dependencies:
-    "@stenajs-webui/core" "0.0.43"
+    "@stenajs-webui/core" "1.2.0"
+    classnames "^2.2.6"
 
-"@stenajs-webui/forms@0.0.43":
-  version "0.0.43"
-  resolved "https://registry.yarnpkg.com/@stenajs-webui/forms/-/forms-0.0.43.tgz#d98195c73f97a4c74415e333102d525ab79e1e00"
-  integrity sha512-YPRcXvs1B+6rkbVO516xWObgs6BNdKJ3PWUl2yFuEUdYzBzMQQupF2CNuIGYm440jDuWfl/tRFtxAaixhAzSRQ==
+"@stenajs-webui/forms@1.2.0":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@stenajs-webui/forms/-/forms-1.2.0.tgz#95404b4c97384ec4a3dda8d786aea1de86d011a2"
+  integrity sha512-BXXH7rsAuneDVzihQ6gcRZzgwhS9mAfsdLv1+x/GOq1z33zZtUBDOFeWzpsUZp8dlsmEwAwqsWrUb8BRKjRyrg==
   dependencies:
-    "@stenajs-webui/core" "0.0.43"
-    "@stenajs-webui/elements" "0.0.43"
+    "@stenajs-webui/core" "1.2.0"
+    "@stenajs-webui/elements" "1.2.0"
+    "@types/classnames" "^2.2.10"
+    classnames "^2.2.6"
     date-fns "2.0.1"
+
+"@stenajs-webui/tooltip@1.2.0":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@stenajs-webui/tooltip/-/tooltip-1.2.0.tgz#d4e12f94b3c154324f55501346a37b99fe3dd8be"
+  integrity sha512-AEM+s0xcp/TFzlCsOGfFkMm+E5IVyaQ2nPlOzXtx0nPxxalOMQ1K8i59RMcpBFjB4LYv8UKm8c9gyIHP5FhGgg==
+  dependencies:
+    "@stenajs-webui/core" "1.2.0"
+    "@stenajs-webui/elements" "1.2.0"
+    popper.js "^1.15.0"
+    react-popper "^1.3.3"
 
 "@styled-system/background@^5.1.2":
   version "5.1.2"
@@ -284,6 +304,11 @@
   dependencies:
     "@styled-system/core" "^5.1.2"
     "@styled-system/css" "^5.0.23"
+
+"@types/classnames@^2.2.10":
+  version "2.2.10"
+  resolved "https://registry.yarnpkg.com/@types/classnames/-/classnames-2.2.10.tgz#cc658ca319b6355399efc1f5b9e818f1a24bf999"
+  integrity sha512-1UzDldn9GfYYEsWWnn/P4wkTlkZDH7lDb0wBMGbtIQc9zXEQq7FlKBdZUn6OBqD8sKZZ2RQO2mAjGpXiDGoRmQ==
 
 "@types/jest@^23.1.5":
   version "23.3.14"
@@ -386,6 +411,11 @@ callsites@^2.0.0:
   resolved "https://registry.yarnpkg.com/callsites/-/callsites-2.0.0.tgz#06eb84f00eea413da86affefacbffb36093b3c50"
   integrity sha1-BuuE8A7qQT2oav/vrL/7Ngk7PFA=
 
+classnames@^2.2.6:
+  version "2.2.6"
+  resolved "https://registry.yarnpkg.com/classnames/-/classnames-2.2.6.tgz#43935bffdd291f326dad0a205309b38d00f650ce"
+  integrity sha512-JR/iSQOSt+LQIWwrwEzJ9uk0xfN3mTVYMwt1Ir5mUcSN6pU+V4zQFFaJsclJbPuAUQH+yfWef6tm7l1quW3C8Q==
+
 convert-source-map@^1.5.0:
   version "1.6.0"
   resolved "https://registry.yarnpkg.com/convert-source-map/-/convert-source-map-1.6.0.tgz#51b537a8c43e0f04dec1993bffcdd504e758ac20"
@@ -425,6 +455,11 @@ date-fns@2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/date-fns/-/date-fns-2.0.1.tgz#c5f30e31d3294918e6b6a82753a4e719120e203d"
   integrity sha512-C14oTzTZy8DH1Eq8N78owrCWvf3+cnJw88BTK/N3DYWVxDJuJzPaNdplzYxDYuuXXGvqBcO4Vy5SOrwAooXSWw==
+
+date-fns@2.16.1:
+  version "2.16.1"
+  resolved "https://registry.yarnpkg.com/date-fns/-/date-fns-2.16.1.tgz#05775792c3f3331da812af253e1a935851d3834b"
+  integrity sha512-sAJVKx/FqrLYHAQeN7VpJrPhagZc9R4ImZIWYRFZaaohR3KzmuK88touwsSwSVT8Qcbd4zoDsnGfX4GFB4imyQ==
 
 error-ex@^1.3.1:
   version "1.3.2"
@@ -500,9 +535,9 @@ json-parse-better-errors@^1.0.1:
   integrity sha512-mrqyZKfX5EhL7hvqcV6WG1yYjnjeuYDzDhhcAAUrq8Po85NBQBJP+ZDUT75qZQ98IkUoBqdkExkukOU7Ts2wrw==
 
 lodash@^4.17.11:
-  version "4.17.13"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.13.tgz#0bdc3a6adc873d2f4e0c4bac285df91b64fc7b93"
-  integrity sha512-vm3/XWXfWtRua0FkUyEHBZy8kCPjErNBT9fJx8Zvs+U6zjqPbTUOpkaoum3O5uiA8sm+yNMHXfYkTUHFoMxFNA==
+  version "4.17.19"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.19.tgz#e48ddedbe30b3321783c5b4301fbd353bc1e4a4b"
+  integrity sha512-JNvd8XER9GQX0v2qJgsaN/mzFCNA5BRe/j8JN9d+tWyGLSodKQHKFicdwNYzWwI3wjRnaKPsGj1XkBjx/F96DQ==
 
 loose-envify@^1.0.0, loose-envify@^1.1.0, loose-envify@^1.4.0:
   version "1.4.0"
